@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <title>How much Crypto can I buy... | Crypto Converter </title>
+    <link rel="canonical" href="https://coinmarketcap.com/calculator/">
+    <meta name="description" content="See how much cryptocurrency you can buy"/>
+    <meta property="og:url"  content="https://www.dollarstocrypto.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="How much Crytpo can I buy" />
+    <meta property="og:description" content="See how much cryptocurrency you can buy" />
+    <meta property="og:image" content="https://www.dollarstocrypto.com/images/crypto_og_img.png" />
+    <meta property="og:image:width" content="400" />
+    <meta property="og:image:height" content="300" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-45251455-4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-45251455-4');
+</script>
+
+    
+
+    <!-- Cool CSS Libraries -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Custom styles for this template -->
+    <link href="./css/style.css" rel="stylesheet">
+</head>
+<body onLoad="scrollDiv_init()">
+    <div class="container">
+        <h1> Crypto Converter </h1>
+        <div id="cryptoslider" onMouseOver="pauseDiv()" onMouseOut="resumeDiv()">
+            </div> 
+
+    
+    <div class="wrapper">
+        <h2>How much Crypto can I buy:</h2>
+        <label for="USD"><img src="images/dollar.png">USD </label>
+        <input type="text" id="USD" value="0" onchange="USDfunc()">
+       
+   </br>
+        <label for="LTC"> <img src="images/litecoin.png">LTC </label>
+       <input type="text" id="LTC"  value="0" onchange="LTCfunc()"/>
+    
+
+    </br>
+    <label for="BTC"> <img src="images/bitcoin.png">BTC </label>
+    <input type="text" id="BTC"  value="0" onchange="BTCfunc()" />
+    
+
+    </br>
+    <label for="ETH"><img src="images/ethereum.png"> ETH </label>
+    <input type="text" id="ETH" value="0" onchange="ETHfunc()" />
+    
+
+    </br>
+    <label for="XRP"><img src="images/ripple.png">XRP </label>
+    <input type="text" id="XRP" value="0" onchange="XRPfunc()" />
+</br>
+    
+     <button id="convert" class="btn btn-success"> Convert</button>
+
+
+    </div>      
+</div>
+
+    <!-- JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

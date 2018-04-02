@@ -1,0 +1,174 @@
+body {
+    padding: 8px;
+    text-align: center;
+}
+
+.container { 
+border:solid;
+width: 100%; 
+background-image: url(../images/fondo.png);
+height:720px;
+}
+
+
+.wrapper{
+width: 600px;
+height: 350px;
+margin: 100px auto 0;
+box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+padding: 20px 16px 24px 16px; 
+background: white;}
+
+label {
+    display: inline-block;
+    width: 15%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    
+}
+
+img{width: 19%;
+    margin-right: 5px;
+    margin: 5px;}
+
+h1 {
+    margin-top: 6px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 50px;
+}
+
+h2 { }
+
+h3{    margin-top: 6px;
+    margin-bottom: 10px;}
+
+h4 {
+    margin-top: 6px;
+    margin-bottom: 10px;
+}
+
+#cryptoslider {
+     width: 100%;
+    border: solid;
+    height: 100px;
+    margin-top: 100px;
+    overflow: auto;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    border-width: 0px;}
+
+#crypto
+{
+    width: 20%;
+    border: solid;
+    height: 70%;
+    float: left;
+    background:white;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    border-width: 0px;
+}
+
+#ethereum
+{
+    width: 20%;
+    border: solid;
+    height: 100%;
+    float: left;
+    background:white;
+}
+
+#btc_cash
+{
+    width: 20%;
+    border: solid;
+    height: 100%;
+    float: left;
+    background:white;
+}
+#ripple
+{
+    width: 20%;
+    border: solid;
+    height: 100%;
+    float: left;
+    background:white;
+}
+#litecoin
+{
+    width: 20%;
+    border: solid;
+    height: 100%;
+    float: left;
+    background:white;
+}
+
+
+#USD{
+	width: 150px;
+	border:solid;
+	border: 1px solid #d9d9d9;
+    border-top: 1px solid silver;
+    border-radius: 2px;
+    height: 28px;
+    margin: 0;
+    overflow: hidden;
+    padding: 1px 6px;
+    line-height: 28px;
+}
+
+#LTC{
+	width: 150px;
+	border:solid;
+	border: 1px solid #d9d9d9;
+    border-top: 1px solid silver;
+    border-radius: 2px;
+    height: 28px;
+    margin: 0;
+    overflow: hidden;
+    padding: 1px 6px;
+    line-height: 28px;
+}
+
+#BTC{
+	width: 150px;
+	border:solid;
+	border: 1px solid #d9d9d9;
+    border-top: 1px solid silver;
+    border-radius: 2px;
+    height: 28px;
+    margin: 0;
+    overflow: hidden;
+    padding: 1px 6px;
+    line-height: 28px;
+}
+
+
+
+#ETH{
+	width: 150px;
+	border:solid;
+	border: 1px solid #d9d9d9;
+    border-top: 1px solid silver;
+    border-radius: 2px;
+    height: 28px;
+    margin: 0;
+    overflow: hidden;
+    padding: 1px 6px;
+    line-height: 28px;
+}
+
+#XRP{
+	width: 150px;
+	border:solid;
+	border: 1px solid #d9d9d9;
+    border-top: 1px solid silver;
+    border-radius: 2px;
+    height: 28px;
+    margin: 0;
+    overflow: hidden;
+    padding: 1px 6px;
+    line-height: 28px;
+}
+
+
+
